@@ -1,0 +1,21 @@
+{
+  "name": "toxic-md-pairing-api",
+  "version": "1.0.0",
+  "description": "API backend for Toxic-MD WhatsApp bot pairing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^8.15.0",
+    "axios": "^1.5.0",
+    "simple-git": "^3.19.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
